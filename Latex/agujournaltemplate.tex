@@ -19,7 +19,10 @@
 \usepackage{lineno}
 \usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
 \usepackage{soul}
+\usepackage{ragged2e}
+\justifying
 \linenumbers
+
 %%%%%%%
 % As of 2018 we recommend use of the TrackChanges package to mark revisions.
 % The trackchanges package adds five new LaTeX commands:
@@ -78,7 +81,7 @@
 
 % Example: \title{This is a test title}
 
-\title{Predicción de caudales medios diarios con diferentes modelos estadísticos}
+\title{Predicción de caudales medios diarios por medio de modelos de inteligencia artificial y aprendizaje automático}
 
 %% ------------------------------------------------------------------------ %%
 %
@@ -134,9 +137,7 @@
 % \end{keypoints}
 
 \begin{keypoints}
-\item enter point 1 here
-\item enter point 2 here
-\item enter point 3 here
+\item 
 \end{keypoints}
 
 %% ------------------------------------------------------------------------ %%
@@ -175,15 +176,16 @@
 %% ------------------------------------------------------------------------ %%
 
 %%% Suggested section heads:
-\section{Introduction}
+% \section{Introduction}
+\section{Introducción}
 
 % The main text should start with an introduction. Except for short
 % manuscripts (such as comments and replies), the text should be divided
 % into sections, each with its own heading.
 
-Los caudales mensuales de los ríos no son constantes en el tiempo, sino que varían en diferentes escalas temporales, de las cuales la más importantes, en Colombia, es el periodo de oscilación anual o semianual, el cual es inducido en gran parte por la oscilación meridional de la zona de convergencia intertropical (Poveda, Gil y Quiceno, 1998). Si de una serie de tiempo de caudal mensual se extrae dichos periodos (ciclo anual), por medio de la estandarización, entonces la serie resultante determina las anomalías de caudal estandarizado, cuya variación dependerá de diferentes mecanismos físicos que gobiernan el caudal en estas escalas de tiempo. Entender cuáles son estos mecanismos, su interdependencia y los meses de rezago con los cuales preceden al caudal es fundamental para elegir sus mejores predictores; esto es especialmente importante en los ríos aferentes al Sistema Interconectado Nacional (SIN), ubicados en la cordillera de los Andes, ya que con dichos caudales se genera gran parte de la energía hidroeléctrica que abastece a Colombia.
+Los caudales de los ríos fluctúan en diferentes escalas de tiempo de comprenden horas, días, semanas, meses y años. El entendimiento de estas fluctuaciones ha sido de gran importancia para los investigadores colombianos, especialmente en los ríos aferentes al Sistema Interconectado Nacional (SIN), ya que con dichos caudales se genera gran parte de la energía hidroeléctrica que abastece a Colombia \textcolor{red}{Poner cuanto y la fuente}. Los principales hallazgos respecto a los moduladores de estas fluctuaciones tienen que ver con la influencia de la oscilación meridional de la Zona de Convergencia Intertropical (ZCIT) sobre la variación anual y semianual \cite{Mejia_et_al_1999} junto con la actividad del Chorro del Occidente Colombiano (CHOCÓ) \cite{Poveda_and_Mesa_2000}, El Niño - Oscilación del Sur (ENSO) sobre la variación interanual \cite{Arias_et_al_2021,Poveda_et_al_2020,Poveda_et_al_2011} y, la Oscilación Decadal del Pacifico (PDO) y Oscilación Multidecadal del Atlántico (AMO) sobre las variaciones decadales \cite{Poveda_2004}. El conocimiento de la influencia de estos mecanismos ha permitido desarrollar modelos de pronóstico estadístico de caudal medio mensual, ya que su modulación se da en escalas mayores al mes. Estos modelos se han basado en diferentes metodos como lo son: \textcolor{red}{bla bla bla y ref}.
 
-En los ríos del norte de la cordillera de los Andes, se han encontrado fuertes relaciones entre las anomalías estandarizadas de caudal y diferentes índices macro climáticos que representan el comportamiento de mecanismos físicos que ocurren a nivel global. Dichos ríos principalmente se han relacionado con el fenómeno ENSO por medio de diferentes índices como el ONI, MEI, Niño 3.4 (Poveda et al., 2011; Bedoya-Soto et al., 2018), el TAD por medio del índice TNA (Arias et al., 2015; Arias et al., 2020), la NAO (Poveda, Gil y Quiceno, 1998; Olarte y Poveda, 2020), la AMO (Kayano and Capistrano, 2014; Loaiza Cerón et al., 2020) y la PDO (Kayano et al., 2019; Loaiza Cerón et al., 2020).
+Recientemente, diferentes estudios han intentado encontrar mecanismos físicos que modulen las oscilaciones de escalas menores que la estacional (escala intraestacional), entre ellos, los trabajos de ...
 
 
 % Headings should be sentence fragments and do not begin with a
@@ -191,6 +193,8 @@ En los ríos del norte de la cordillera de los Andes, se han encontrado fuertes 
 
 % \section{Materials and Methods}
 % Here is text on Materials and Methods.
+
+\section{Materiales y Métodos}
 %
 % \subsection{A descriptive heading about methods}
 % More about Methods.
@@ -261,25 +265,25 @@ En los ríos del norte de la cordillera de los Andes, se han encontrado fuertes 
 % if the paper is accepted, Wiley will replace vertical lines with white space
 % the CLS file modifies table padding and vertical lines may not display well
 %
- \begin{table}
- \caption{Time of the Transition Between Phase 1 and Phase 2$^{a}$}
- \centering
- \begin{tabular}{l c}
- \hline
-  Run  & Time (min)  \\
- \hline
-   $l1$  & 260   \\
-   $l2$  & 300   \\
-   $l3$  & 340   \\
-   $h1$  & 270   \\
-   $h2$  & 250   \\
-   $h3$  & 380   \\
-   $r1$  & 370   \\
-   $r2$  & 390   \\
- \hline
- \multicolumn{2}{l}{$^{a}$Footnote text here.}
- \end{tabular}
- \end{table}
+% \begin{table}
+% \caption{Time of the Transition Between Phase 1 and Phase 2$^{a}$}
+% \centering
+% \begin{tabular}{l c}
+% \hline
+%  Run  & Time (min)  \\
+% \hline
+%   $l1$  & 260   \\
+%   $l2$  & 300   \\
+%   $l3$  & 340   \\
+%   $h1$  & 270   \\
+%   $h2$  & 250   \\
+%   $h3$  & 380   \\
+%   $r1$  & 370   \\
+%   $r2$  & 390   \\
+% \hline
+% \multicolumn{2}{l}{$^{a}$Footnote text here.}
+% \end{tabular}
+% \end{table}
 
 %% SIDEWAYS FIGURE and TABLE
 % AGU prefers the use of {sidewaystable} over {landscapetable} as it causes fewer problems.
@@ -413,9 +417,7 @@ Hello here is some text in Nick's file
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\bibliography{}
-
-
+\bibliography{bibliography}
 
 %Reference citation instructions and examples:
 %

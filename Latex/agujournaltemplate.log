@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.1)  25 AUG 2022 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.1)  29 AUG 2022 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -183,20 +183,20 @@ File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 ) (agujournaltemplate.aux)
 \openout1 = `agujournaltemplate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
 
 (C:\Users\juane\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -257,227 +257,35 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 102.
+(Font)              <7> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 102.
+(Font)              <5> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 102.
+(Font)              <8> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 102.
+(Font)              <6> on input line 105.
 
 [1{C:/Users/juane/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 178.
+(Font)              size <10.95> substituted on input line 180.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 178.
+(Font)              size <10.95> substituted on input line 180.
 
 
-Overfull \hbox (10.71002pt too wide) in paragraph at lines 184--185
-[]\OT1/cmr/m/n/10 Los cau-dales men-su-ales de los r^^S^^Pos no son con-stantes
- en el tiempo, sino que var^^S^^Pan 
+Overfull \hbox (21.20676pt too wide) in paragraph at lines 389--392
+\OT1/cmr/m/n/10 ple Num-bers sec-tion: $\OT1/cmtt/m/n/10 https :// www [] .agu 
+[] .org / Publish [] -with [] -AGU / Publish / Author [] -Resources /
  []
 
 
-Overfull \hbox (16.26558pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 en difer-entes es-calas tem-po-rales, de las cuales la m^^Sas i
-m-por-tantes, en Colom-bia, es el pe- 
+Underfull \hbox (badness 10000) in paragraph at lines 393--399
+
  []
 
-
-Overfull \hbox (12.40459pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 ri-odo de os-cilaci^^Son an-ual o semi-an-ual, el cual es in-du
-cido en gran parte por la os-cilaci^^Son 
- []
-
-
-Overfull \hbox (0.44626pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 merid-ional de la zona de con-ver-gen-cia in-tertrop-i-cal (Pov
-eda, Gil y Quiceno, 1998). Si 
- []
-
-
-Overfull \hbox (0.51564pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 de una se-rie de tiempo de cau-dal men-sual se ex-trae di-chos 
-pe-ri-o-dos (ci-clo an-ual), por 
- []
-
-
-Overfull \hbox (15.29341pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 medio de la es-tandarizaci^^Son, en-tonces la se-rie re-sul-tan
-te de-ter-mina las anomal^^S^^Pas de cau- 
- []
-
-
-Overfull \hbox (3.62679pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 dal es-tandarizado, cuya variaci^^Son de-pen-der^^Sa de difer-e
-ntes mecan-is-mos f^^S^^Psicos que go-b- 
- []
-
-
-Overfull \hbox (3.43222pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 ier-nan el cau-dal en es-tas es-calas de tiempo. En-ten-der cu^
-^Sales son es-tos mecan-is-mos, su 
- []
-
-
-Overfull \hbox (5.82112pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 in-ter-de-pen-den-cia y los meses de rezago con los cuales prec
-e-den al cau-dal es fun-da-men- 
- []
-
-
-Overfull \hbox (12.79333pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 tal para ele-gir sus mejores pre-dic-tores; esto es es-pe-cial-
-mente im-por-tante en los r^^S^^Pos afer- 
- []
-
-
-Overfull \hbox (7.71008pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 entes al Sis-tema In-ter-conec-tado Na-cional (SIN), ubi-ca-dos
- en la cordillera de los An-des, 
- []
-
-
-Overfull \hbox (16.3489pt too wide) in paragraph at lines 184--185
-\OT1/cmr/m/n/10 ya que con di-chos cau-dales se gen-era gran parte de la en-erg
-^^S^^Pa hidroel^^Sectrica que abastece 
- []
-
-
-Overfull \hbox (7.01552pt too wide) in paragraph at lines 186--187
-[]\OT1/cmr/m/n/10 En los r^^S^^Pos del norte de la cordillera de los An-des, se
- han en-con-trado fuertes rela- 
- []
-
-
-Overfull \hbox (15.40454pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 ciones en-tre las anomal^^S^^Pas es-tandarizadas de cau-dal y d
-ifer-entes ^^S^^Pndices macro clim^^Saticos 
- []
-
-
-Overfull \hbox (15.9601pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 que rep-re-sen-tan el com-por-tamiento de mecan-is-mos f^^S^^Ps
-icos que ocur-ren a nivel global. Di- 
- []
-
-
-Overfull \hbox (8.07123pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 chos r^^S^^Pos prin-ci-pal-mente se han rela-cionado con el fen
-^^Someno ENSO por medio de difer- 
- []
-
-
-Overfull \hbox (18.1546pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 entes ^^S^^Pndices como el ONI, MEI, Ni~no 3.4 (Poveda et al., 
-2011; Bedoya-Soto et al., 2018), 
- []
-
-
-Overfull \hbox (24.4879pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 el TAD por medio del ^^S^^Pndice TNA (Arias et al., 2015; Arias
- et al., 2020), la NAO (Poveda, 
- []
-
-
-Overfull \hbox (2.11304pt too wide) in paragraph at lines 186--187
-\OT1/cmr/m/n/10 Gil y Quiceno, 1998; Olarte y Poveda, 2020), la AMO (Kayano and
- Capis-trano, 2014; 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 265.
-
-Overfull \hbox (8.83513pt too wide) in paragraph at lines 367--368
-[]\OT1/cmr/m/n/10 AGU re-quires an Avail-abil-ity State-ment for the un-der-ly-
-ing data needed to un-der- 
- []
-
-
-Overfull \hbox (21.51572pt too wide) in paragraph at lines 367--368
-\OT1/cmr/m/n/10 stand, eval-u-ate, and build upon the re-ported re-search at th
-e time of peer re-view and pub- 
- []
-
-
-Overfull \hbox (5.8768pt too wide) in paragraph at lines 369--370
-[]\OT1/cmr/m/n/10 Authors should in-clude an Avail-abil-ity State-ment for the 
-soft-ware that has a sig- 
- []
-
-
-Overfull \hbox (12.46016pt too wide) in paragraph at lines 369--370
-\OT1/cmr/m/n/10 nif-i-cant im-pact on the re-search. De-tails and tem-plates ar
-e in the Avail-abil-ity State-ment 
- []
-
-
-Overfull \hbox (17.83366pt too wide) in paragraph at lines 369--370
-\OT1/cmr/m/n/10 sec-tion of the Data and Soft-ware for Au-thors Guid-ance: $\OT
-1/cmtt/m/n/10 https :// www [] .agu [] .org / Publish [] 
- []
-
-
-Overfull \hbox (30.76149pt too wide) in paragraph at lines 369--370
-\OT1/cmtt/m/n/10 -with [] -AGU / Publish / Author [] -Resources / Data [] -and 
-[] -Software [] -for [] -Authors # availability$  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-Overfull \hbox (14.48792pt too wide) in paragraph at lines 371--383
-[]\OT1/cmr/m/n/10 It is im-por-tant to cite in-di-vid-ual datasets in this sec-
-tion and, and they must be in- 
- []
-
-
-Overfull \hbox (3.57126pt too wide) in paragraph at lines 371--383
-\OT1/cmr/m/n/10 cluded in your bib-li-og-ra-phy. Please use the type field in y
-our bib-tex file to spec-ify the 
- []
-
-
-Overfull \hbox (19.01587pt too wide) in paragraph at lines 371--383
-\OT1/cmr/m/n/10 type of data cited. Op-tions in-clude [Dataset], [Soft-ware], [
-Com-pu-ta-tion-al-Note-book], [Col- 
- []
-
-
-Overfull \hbox (10.45999pt too wide) in paragraph at lines 385--388
-[]\OT1/cmr/m/n/10 For phys-i-cal sam-ples, use the IGSN per-sis-tent iden-ti-fi
-er, see the In-ter-na-tional Geo 
- []
-
-
-Overfull \hbox (9.124pt too wide) in paragraph at lines 385--388
-\OT1/cmr/m/n/10 Sam-ple Num-bers sec-tion: $\OT1/cmtt/m/n/10 https :// www [] .
-agu [] .org / Publish [] -with [] -AGU / Publish / Author [] 
- []
-
-
-Overfull \hbox (24.65457pt too wide) in paragraph at lines 389--391
-\OT1/cmr/m/n/10 This sec-tion is op-tional. In-clude any Ac-knowl-edg-ments her
-e. The ac-knowl-edg-ments should 
- []
-
-
-Overfull \hbox (1.7378pt too wide) in paragraph at lines 394--394
-[]\OT1/cmr/m/n/10 that may be per-ceived as hav-ing a con-flict of in-ter-est w
-ith re-spect to the re-sults 
- []
-
-[3]
-Overfull \hbox (4.27953pt too wide) in paragraph at lines 396--396
-[]\OT1/cmr/m/n/10 It is also the ap-pro-pri-ate place to thank col-leagues and 
-other con-trib-u-tors. AGU 
- []
-
-[4
+[2] (agujournaltemplate.bbl) [3
 
 ] (agujournaltemplate.aux)
 
@@ -486,36 +294,33 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 3885 strings out of 478614
- 64591 string characters out of 2843123
- 366976 words of memory out of 3000000
- 21982 multiletter control sequences out of 15000+600000
- 475795 words of font info for 50 fonts, out of 8000000 for 9000
+ 3906 strings out of 478614
+ 65125 string characters out of 2843123
+ 368573 words of memory out of 3000000
+ 22002 multiletter control sequences out of 15000+600000
+ 475220 words of font info for 48 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 70i,10n,76p,1116b,317s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 70i,8n,76p,1414b,309s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 0600.pk> <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm0700.pk><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbx10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/juane/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/juane/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/juane/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/juan
-e/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
-ers/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb
-><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr9.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmss8.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/juane/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/juane/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/juane/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on agujournaltemplate.pdf (4 pages, 199772 bytes).
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/juane/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/juane/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/juane/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juane/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/j
+uane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:
+/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5
+.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmti10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti9.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmtt10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on agujournaltemplate.pdf (3 pages, 186167 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
