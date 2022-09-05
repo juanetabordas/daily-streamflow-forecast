@@ -1,6 +1,85 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Acolgen%
+}{%
+Acolgen%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Acolgen_2022}
+\APACinsertmetastar {%
+Acolgen_2022}%
+\begin{APACrefauthors}%
+Acolgen.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+\APACrefbtitle {Capacidad instalada en Colombia.} {Capacidad instalada en
+  colombia.}
+\newblock
+\begin{APACrefURL} [{2022-08-30}]\url{https://acolgen.org.co/} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Arenas~C{\'a}rdenas%
+\ \BBA {} Carvajal~Serna%
+}{%
+Arenas~C{\'a}rdenas%
+\ \BBA {} Carvajal~Serna%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Arenas_and_Carvajal_2010}
+\APACinsertmetastar {%
+Arenas_and_Carvajal_2010}%
+\begin{APACrefauthors}%
+Arenas~C{\'a}rdenas, J\BPBI S.%
+\BCBT {}\ \BBA {} Carvajal~Serna, L\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Desarrollo de un modelo de predicci{\'o}n de caudales
+  semanales asociado a la variabilidad intraestacional en Colombia} {Desarrollo
+  de un modelo de predicci{\'o}n de caudales semanales asociado a la
+  variabilidad intraestacional en colombia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Escuela de Geociencias y Medio Ambiente}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Arias%
+}{%
+Arias%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Arias_2005}
+\APACinsertmetastar {%
+Arias_2005}%
+\begin{APACrefauthors}%
+Arias, P\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\unskip\
+\newblock
+\APACrefbtitle {Diagnostico y predicci{\'o}n de la variabilidad intra-anual de
+  la hidrolog{\'\i}a colombiana} {Diagnostico y predicci{\'o}n de la
+  variabilidad intra-anual de la hidrolog{\'\i}a colombiana}\
+  \APACtypeAddressSchool {\BUMTh}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Universidad Nacional de Colombia. Sede Medell{\'\i}n.
+  Facultad de Minas}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Arias%
 \ \protect \BOthers {.}}{%
 Arias%
@@ -37,38 +116,193 @@ Arias, P\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Espinoza%
+Carvajal%
+, Salazar%
+, Mesa%
+\BCBL {}\ \BBA {} Poveda%
+}{%
+Carvajal%
 \ \protect \BOthers {.}}{%
-Espinoza%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2020}}%
+{\protect \APACyear {1998}}%
 }]{%
-Espinoza_et_al.2020}
+Carvajal_et_al_1998}
 \APACinsertmetastar {%
-Espinoza_et_al.2020}%
+Carvajal_et_al_1998}%
 \begin{APACrefauthors}%
-Espinoza, J\BPBI C.%
-, Garreaud, R.%
-, Poveda, G.%
-, Arias, P\BPBI A.%
-, Molina-Carpio, J.%
-, Masiokas, M.%
-\BDBL {}Scaff, L.%
+Carvajal, L.%
+, Salazar, J.%
+, Mesa, O.%
+\BCBL {}\ \BBA {} Poveda, G.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2020}{}{}.
+\APACrefYearMonthDay{1998}{01}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Hydroclimate of the Andes Part I: Main Climatic
-  Features} {Hydroclimate of the andes part i: Main climatic features}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Hydrological prediction in Colombia using singular
+  spectral analysis and the maximum entropy method} {Hydrological prediction in
+  colombia using singular spectral analysis and the maximum entropy
+  method}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Frontiers in Earth Science}{8}{}{}.
+\APACjournalVolNumPages{Ingeniería hidráulica en México}{13}{}{7-16}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Giraldo-Cardenas%
+, Arias%
+, Vieira%
+\BCBL {}\ \BBA {} Zuluaga%
+}{%
+Giraldo-Cardenas%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Giraldo-Cardenas_et_al_2021}
+\APACinsertmetastar {%
+Giraldo-Cardenas_et_al_2021}%
+\begin{APACrefauthors}%
+Giraldo-Cardenas, S.%
+, Arias, P\BPBI A.%
+, Vieira, S\BPBI C.%
+\BCBL {}\ \BBA {} Zuluaga, M\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Easterly waves and precipitation over northern South
+  America and the Caribbean} {Easterly waves and precipitation over northern
+  south america and the caribbean}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of
+  Climatology}{42}{3}{1483-1499}.
 \newblock
 \begin{APACrefURL}
-  \url{https://www.frontiersin.org/article/10.3389/feart.2020.00064}
+  \url{https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.7315}
   \end{APACrefURL}
 \newblock
-\begin{APACrefDOI} \doi{10.3389/feart.2020.00064} \end{APACrefDOI}
+\begin{APACrefDOI} \doi{https://doi.org/10.1002/joc.7315} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Grimm%
+}{%
+Grimm%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Grimm_2019}
+\APACinsertmetastar {%
+Grimm_2019}%
+\begin{APACrefauthors}%
+Grimm, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{07}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Madden–Julian Oscillation impacts on South American
+  summer monsoon season: precipitation anomalies, extreme events,
+  teleconnections, and role in the MJO cycle} {Madden–julian oscillation
+  impacts on south american summer monsoon season: precipitation anomalies,
+  extreme events, teleconnections, and role in the mjo cycle}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Climate Dynamics}{53}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00382-019-04622-6} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hoyos%
+\ \BBA {} Taborda%
+}{%
+Hoyos%
+\ \BBA {} Taborda%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Hoyos_et_al_no_published}
+\APACinsertmetastar {%
+Hoyos_et_al_no_published}%
+\begin{APACrefauthors}%
+Hoyos, C.%
+\BCBT {}\ \BBA {} Taborda, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {The influence of Equatorially Trapped Waves on Precipitation
+  Variability in the Amazon Basin and Northern South America.} {The influence
+  of equatorially trapped waves on precipitation variability in the amazon
+  basin and northern south america.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Madden%
+\ \BBA {} Julian%
+}{%
+Madden%
+\ \BBA {} Julian%
+}{%
+{\protect \APACyear {1971}}%
+}]{%
+Madden_Julian_1971}
+\APACinsertmetastar {%
+Madden_Julian_1971}%
+\begin{APACrefauthors}%
+Madden, R\BPBI A.%
+\BCBT {}\ \BBA {} Julian, P\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Detection of a 40–50 Day Oscillation in the Zonal Wind
+  in the Tropical Pacific} {Detection of a 40–50 day oscillation in the zonal
+  wind in the tropical pacific}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Atmospheric Sciences}{28}{5}{702 - 708}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/atsc/28/5/1520-0469_1971_028_0702_doadoi_2_0_co_2.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1520-0469(1971)028<0702:DOADOI>2.0.CO;2}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Madden%
+\ \BBA {} Julian%
+}{%
+Madden%
+\ \BBA {} Julian%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+Madden_Julian_1972}
+\APACinsertmetastar {%
+Madden_Julian_1972}%
+\begin{APACrefauthors}%
+Madden, R\BPBI A.%
+\BCBT {}\ \BBA {} Julian, P\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Description of Global-Scale Circulation Cells in the
+  Tropics with a 40–50 Day Period} {Description of global-scale circulation
+  cells in the tropics with a 40–50 day period}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Atmospheric Sciences}{29}{6}{1109 - 1123}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/atsc/29/6/1520-0469_1972_029_1109_dogscc_2_0_co_2.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1520-0469(1972)029<1109:DOGSCC>2.0.CO;2}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -219,6 +453,240 @@ Poveda, G.%
 \APACjournalVolNumPages{Geophysical Research Letters}{27}{}{1675-1678}.
 \newblock
 \begin{APACrefDOI} \doi{10.1029/1999GL006091} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Poveda%
+\ \protect \BOthers {.}}{%
+Poveda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+Poveda_et_al_2002_predict}
+\APACinsertmetastar {%
+Poveda_et_al_2002_predict}%
+\begin{APACrefauthors}%
+Poveda, G.%
+, Mesa, O.%
+, Carvajal, L.%
+, Hoyos, C.%
+, Mejia, J.%
+, Cuartas, L.%
+\BCBL {}\ \BBA {} Pulgarín.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Predicción de caudales medios mensuales en ríos
+  Colombianos usando métodos no lineales} {Predicción de caudales medios
+  mensuales en ríos colombianos usando métodos no lineales}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Meteorología Colombiana}{6}{}{101-110}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rojo-Hern{\'a}ndez%
+\ \BBA {} Carvajal-Serna%
+}{%
+Rojo-Hern{\'a}ndez%
+\ \BBA {} Carvajal-Serna%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Rojo_and_Carvajal_2010}
+\APACinsertmetastar {%
+Rojo_and_Carvajal_2010}%
+\begin{APACrefauthors}%
+Rojo-Hern{\'a}ndez, J\BPBI D.%
+\BCBT {}\ \BBA {} Carvajal-Serna, L\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Predicci{\'o}n no lineal de caudales utilizando
+  variables macroclim{\'a}ticas y an{\'a}lisis espectral singular}
+  {Predicci{\'o}n no lineal de caudales utilizando variables
+  macroclim{\'a}ticas y an{\'a}lisis espectral singular}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tecnolog{\'\i}a y ciencias del agua}{1}{4}{59--73}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Salazar~Velásquez%
+\ \BBA {} Mesa~Sánchez%
+}{%
+Salazar~Velásquez%
+\ \BBA {} Mesa~Sánchez%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+Salazar_Velasquez_Mesa_Sanchez_1994}
+\APACinsertmetastar {%
+Salazar_Velasquez_Mesa_Sanchez_1994}%
+\begin{APACrefauthors}%
+Salazar~Velásquez, J\BPBI E.%
+\BCBT {}\ \BBA {} Mesa~Sánchez, O\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{ene.}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aplicación de dos modelos no lineales a la simulación
+  de series hidrológicas} {Aplicación de dos modelos no lineales a la
+  simulación de series hidrológicas}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Avances en Recursos Hidráulicos}{}{02}{27–47}.
+\newblock
+\begin{APACrefURL}
+  \url{https://revistas.unal.edu.co/index.php/arh/article/view/91916}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sanchez%
+\ \BBA {} Poveda%
+}{%
+Sanchez%
+\ \BBA {} Poveda%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+Sanchez_and_Poveda_2006}
+\APACinsertmetastar {%
+Sanchez_and_Poveda_2006}%
+\begin{APACrefauthors}%
+Sanchez, J.%
+\BCBT {}\ \BBA {} Poveda, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aplicación de los métodos MARS, Holt-Winters y ARIMA
+  generalizado en el pronóstico de caudales medios mensuales en ríos de
+  Antioquia} {Aplicación de los métodos mars, holt-winters y arima
+  generalizado en el pronóstico de caudales medios mensuales en ríos de
+  antioquia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Meteorología Colombiana}{10}{}{36-46}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Serra%
+, Kiladis%
+\BCBL {}\ \BBA {} Hodges%
+}{%
+Serra%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+Serra_et_al_2010}
+\APACinsertmetastar {%
+Serra_et_al_2010}%
+\begin{APACrefauthors}%
+Serra, Y\BPBI L.%
+, Kiladis, G\BPBI N.%
+\BCBL {}\ \BBA {} Hodges, K\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tracking and Mean Structure of Easterly Waves over the
+  Intra-Americas Sea} {Tracking and mean structure of easterly waves over the
+  intra-americas sea}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Climate}{23}{18}{4823 - 4840}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/clim/23/18/2010jcli3223.1.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/2010JCLI3223.1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Taborda-Soto%
+}{%
+Taborda-Soto%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Taborda-Soto_no_published}
+\APACinsertmetastar {%
+Taborda-Soto_no_published}%
+\begin{APACrefauthors}%
+Taborda-Soto, J\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Variabilidad intraestacional de la precipitaci´on sobre el
+  norte de Sudamérica: diagnóstico y conexiones.} {Variabilidad
+  intraestacional de la precipitaci´on sobre el norte de sudamérica:
+  diagnóstico y conexiones.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Torres-Pineda%
+\ \BBA {} Pabón~Caicedo%
+}{%
+Torres-Pineda%
+\ \BBA {} Pabón~Caicedo%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Torres_Pineda_and_Pabon_Caicedo_2017}
+\APACinsertmetastar {%
+Torres_Pineda_and_Pabon_Caicedo_2017}%
+\begin{APACrefauthors}%
+Torres-Pineda, C.%
+\BCBT {}\ \BBA {} Pabón~Caicedo, J\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{03}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Variabilidad intraestacional de la precipitación en
+  Colombia y su relación con la oscilación de Madden-Julian} {Variabilidad
+  intraestacional de la precipitación en colombia y su relación con la
+  oscilación de madden-julian}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Revista de la Academia Colombiana de Ciencias Exactas,
+  Físicas y Naturales}{41}{}{79}.
+\newblock
+\begin{APACrefDOI} \doi{10.18257/raccefyn.380} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yepes~Palacio%
+}{%
+Yepes~Palacio%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Yepes_2012}
+\APACinsertmetastar {%
+Yepes_2012}%
+\begin{APACrefauthors}%
+Yepes~Palacio, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\unskip\
+\newblock
+\APACrefbtitle {Variabilidad Clim{\'a}tica Intraestacional y su Efecto sobre la
+  Precipitaci{\'o}n en Colombia: Diagn{\'o}stico y Pron{\'o}stico}
+  {Variabilidad clim{\'a}tica intraestacional y su efecto sobre la
+  precipitaci{\'o}n en colombia: Diagn{\'o}stico y pron{\'o}stico}\
+  \APACtypeAddressSchool {\BUMTh}{}{}.
+\unskip\
+\newblock
+\APACaddressSchool {}{Escuela de Geociencias y Medio Ambiente}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

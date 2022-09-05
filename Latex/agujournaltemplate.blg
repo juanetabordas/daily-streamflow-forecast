@@ -14,45 +14,48 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: bibliography.bib
+Warning--entry type for "Acolgen_2022" isn't style-file defined
+--line 659 of file bibliography.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 7 entries,
+You've used 23 entries,
             6951 wiz_defined-function locations,
-            1327 strings with 12817 characters,
-and the built_in function-call counts, 17370 in all, are:
-= -- 2038
-> -- 151
-< -- 952
-+ -- 1065
-- -- 14
-* -- 1226
-:= -- 3424
-add.period$ -- 25
-call.type$ -- 7
-change.case$ -- 125
+            1447 strings with 16892 characters,
+and the built_in function-call counts, 52915 in all, are:
+= -- 6446
+> -- 378
+< -- 2993
++ -- 3127
+- -- 50
+* -- 3656
+:= -- 10636
+add.period$ -- 90
+call.type$ -- 23
+change.case$ -- 383
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 508
-empty$ -- 606
-format.name$ -- 298
-if$ -- 3037
+cite$ -- 46
+duplicate$ -- 1261
+empty$ -- 1793
+format.name$ -- 674
+if$ -- 9434
 int.to.chr$ -- 0
-int.to.str$ -- 21
+int.to.str$ -- 69
 missing$ -- 0
-newline$ -- 201
-num.names$ -- 56
-pop$ -- 213
+newline$ -- 611
+num.names$ -- 184
+pop$ -- 690
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 108
 quote$ -- 0
-skip$ -- 993
+skip$ -- 3126
 stack$ -- 0
-substring$ -- 1139
-swap$ -- 280
-text.length$ -- 20
+substring$ -- 3332
+swap$ -- 707
+text.length$ -- 64
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 560
+type$ -- 2040
 warning$ -- 0
-while$ -- 104
+while$ -- 235
 width$ -- 0
-write$ -- 257
+write$ -- 757
+(There was 1 warning)

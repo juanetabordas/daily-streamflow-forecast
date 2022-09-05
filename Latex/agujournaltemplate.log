@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.1)  29 AUG 2022 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.1)  1 SEP 2022 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -275,52 +275,56 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <10.5> not available
 (Font)              size <10.95> substituted on input line 180.
 
 
-Overfull \hbox (21.20676pt too wide) in paragraph at lines 389--392
+Underfull \vbox (badness 4266) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (21.20676pt too wide) in paragraph at lines 404--407
 \OT1/cmr/m/n/10 ple Num-bers sec-tion: $\OT1/cmtt/m/n/10 https :// www [] .agu 
 [] .org / Publish [] -with [] -AGU / Publish / Author [] -Resources /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--399
+Underfull \hbox (badness 10000) in paragraph at lines 408--414
 
  []
 
-[2] (agujournaltemplate.bbl) [3
+[3] (agujournaltemplate.bbl [4
 
-] (agujournaltemplate.aux)
+]) [5] (agujournaltemplate.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.45pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 3906 strings out of 478614
- 65125 string characters out of 2843123
- 368573 words of memory out of 3000000
- 22002 multiletter control sequences out of 15000+600000
- 475220 words of font info for 48 fonts, out of 8000000 for 9000
+ 3957 strings out of 478614
+ 66338 string characters out of 2843123
+ 375524 words of memory out of 3000000
+ 22053 multiletter control sequences out of 15000+600000
+ 475297 words of font info for 48 fonts, out of 8000000 for 9000
  1147 hyphenation exceptions out of 8191
- 70i,8n,76p,1414b,309s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-0600.pk> <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\tcrm0700.pk><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/juane/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/juane/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/juane/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/juane/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/j
-uane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:
-/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5
-.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmti10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmti9.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmtt10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on agujournaltemplate.pdf (3 pages, 186167 bytes).
+ 70i,8n,76p,2092b,322s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcti
+1000.pk> <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm0600.pk> <C:\Users\juane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\tcrm0700.pk><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/juane/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/juane/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/juane/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/juane/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/ju
+ane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/U
+sers/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti10.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti9.pfb><C:/Users/juane/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/juane/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on agujournaltemplate.pdf (5 pages, 200756 bytes).
 PDF statistics:
- 87 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
