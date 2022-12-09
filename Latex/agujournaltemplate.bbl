@@ -662,6 +662,41 @@ Torres-Pineda, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Wheeler%
+\ \BBA {} Kiladis%
+}{%
+Wheeler%
+\ \BBA {} Kiladis%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+Wheeler_And_Kiladis_1999}
+\APACinsertmetastar {%
+Wheeler_And_Kiladis_1999}%
+\begin{APACrefauthors}%
+Wheeler, M.%
+\BCBT {}\ \BBA {} Kiladis, G\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Convectively Coupled Equatorial Waves: Analysis of
+  Clouds and Temperature in the Wavenumber–Frequency Domain} {Convectively
+  coupled equatorial waves: Analysis of clouds and temperature in the
+  wavenumber–frequency domain}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the Atmospheric Sciences}{56}{3}{374 - 399}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journals.ametsoc.org/view/journals/atsc/56/3/1520-0469_1999_056_0374_ccewao_2.0.co_2.xml}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1175/1520-0469(1999)056<0374:CCEWAO>2.0.CO;2}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Yepes~Palacio%
 }{%
 Yepes~Palacio%

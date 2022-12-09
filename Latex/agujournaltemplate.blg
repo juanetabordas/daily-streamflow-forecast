@@ -17,45 +17,45 @@ Database file #1: bibliography.bib
 Warning--entry type for "Acolgen_2022" isn't style-file defined
 --line 659 of file bibliography.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 23 entries,
+You've used 24 entries,
             6951 wiz_defined-function locations,
-            1447 strings with 16892 characters,
-and the built_in function-call counts, 52915 in all, are:
-= -- 6446
-> -- 378
-< -- 2993
-+ -- 3127
-- -- 50
-* -- 3656
-:= -- 10636
-add.period$ -- 90
-call.type$ -- 23
-change.case$ -- 383
+            1456 strings with 17276 characters,
+and the built_in function-call counts, 55200 in all, are:
+= -- 6722
+> -- 392
+< -- 3127
++ -- 3263
+- -- 52
+* -- 3827
+:= -- 11113
+add.period$ -- 94
+call.type$ -- 24
+change.case$ -- 400
 chr.to.int$ -- 0
-cite$ -- 46
-duplicate$ -- 1261
-empty$ -- 1793
-format.name$ -- 674
-if$ -- 9434
+cite$ -- 48
+duplicate$ -- 1312
+empty$ -- 1871
+format.name$ -- 698
+if$ -- 9838
 int.to.chr$ -- 0
-int.to.str$ -- 69
+int.to.str$ -- 72
 missing$ -- 0
-newline$ -- 611
-num.names$ -- 184
-pop$ -- 690
+newline$ -- 640
+num.names$ -- 192
+pop$ -- 714
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 112
 quote$ -- 0
-skip$ -- 3126
+skip$ -- 3251
 stack$ -- 0
-substring$ -- 3332
-swap$ -- 707
-text.length$ -- 64
+substring$ -- 3477
+swap$ -- 739
+text.length$ -- 66
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2040
+type$ -- 2120
 warning$ -- 0
-while$ -- 235
+while$ -- 242
 width$ -- 0
-write$ -- 757
+write$ -- 792
 (There was 1 warning)

@@ -136,9 +136,9 @@
 % \item	Each must be 140 characters or fewer with no special characters or punctuation and must be complete sentences
 % \end{keypoints}
 
-\begin{keypoints}
-\item 
-\end{keypoints}
+%\begin{keypoints}
+%\item 
+%\end{keypoints}
 
 %% ------------------------------------------------------------------------ %%
 %
@@ -161,9 +161,9 @@
 
 %% \begin{abstract} starts the second page
 
-\begin{abstract}
-[ enter your Abstract here ]
-\end{abstract}
+%\begin{abstract}
+%[ enter your Abstract here ]
+%\end{abstract}
 
 % \section*{Plain Language Summary}
 % [ enter your Plain Language Summary here or delete this section]
@@ -177,6 +177,10 @@
 
 %%% Suggested section heads:
 % \section{Introduction}
+\section*{Resumen}
+
+\textcolor{red}{Aquí voy a escribir un resumen jejeje}
+
 \section{Introducción}
 
 % The main text should start with an introduction. Except for short
@@ -185,9 +189,9 @@
 
 Los caudales de los ríos fluctúan en diferentes escalas de tiempo que comprenden horas, días, semanas, meses y años. El entendimiento de estas fluctuaciones ha sido de gran importancia para los investigadores colombianos, especialmente en los ríos aferentes al Sistema Interconectado Nacional (SIN), ya que la generación de energía eléctrica por medio de dichos caudales representa cerca del 70\% de la energía producida por la Asociación Colombiana de Generadores de Energía Eléctrica (ACOLGEN), la cual tiene cerca del 70\% de la capacidad instalada del país \cite{Acolgen_2022}. Los principales hallazgos respecto a los moduladores de estas fluctuaciones tienen que ver con la oscilación meridional de la Zona de Convergencia Intertropical (ZCIT) que tiene influencia sobre la variación anual y semianual del caudal \cite{Mejia_et_al_1999} junto con la actividad del Chorro del Occidente Colombiano (CHOCÓ) \cite{Poveda_and_Mesa_2000}, El Niño - Oscilación del Sur (ENSO), el cual influye sobre la variación interanual \cite{Arias_et_al_2021,Poveda_et_al_2020,Poveda_et_al_2011} y, la Oscilación Decadal del Pacifico (PDO) y Oscilación Multidecadal del Atlántico (AMO) que repercuten sobre las variaciones decadales \cite{Poveda_2004}. Bajo este conocimiento se han desarrollado diferentes modelos de pronóstico estadístico de caudal medio mensual que permitan asegurar la operación de los embalses con desempeños aceptables en estas escalas de tiempo. Algunos de los métodos utilizados en estos modelos de pronóstico consisten en la aplicación de Regresión Lineal Múltiple \cite{Poveda_et_al_2002_predict}, Redes Neuronales \cite{Poveda_et_al_2002_predict}, Modelo MARS \cite{Poveda_et_al_2002_predict, Sanchez_and_Poveda_2006}, Análisis Espectral Singular \cite{Carvajal_et_al_1998,Rojo_and_Carvajal_2010}, Modelo ARIMA \cite{Sanchez_and_Poveda_2006}, Modelos autoregresivos \cite{Salazar_Velasquez_Mesa_Sanchez_1994} y Predicción por bandas espectrales \cite{Poveda_et_al_2002_predict}.
 
-Por otro lado, la necesidad de contar con información de los mecanismos que intervienen en la modulación de las oscilaciones intraestacionales (con periodos entre 1-90 días) ha impulsado diversos estudios que se han enfocado principalmente en las relaciones con la Oscilación de Madden-Julian (MJO) \cite{Arias_2005,Poveda_and_Mesa_2000,Torres_Pineda_and_Pabon_Caicedo_2017,Grimm_2019}, la cual es el principal modo de variabilidad intraestacional en el trópico \cite{Madden_Julian_1971,Madden_Julian_1972} y en modelos de pronóstico que incluyan este mecanismo como variable predictora, los cuales se han basado principalmente en métodos de Análisis Espectral Singular y Predicción por bandas espectrales \cite{Arias_2005,Arenas_and_Carvajal_2010,Yepes_2012}. Recientemente, se ha encontrado que además de la MJO, otras ondas atmosféricas acopladas con la convección, en particular Ondas Kelvin, Ondas Rossby y Ondas del Este, se relacionan coherentemente con la precipitación sobre la región \cite{Giraldo-Cardenas_et_al_2021,Hoyos_et_al_no_published,Taborda-Soto_no_published}, y que en la dinámica los chorros de bajo nivel podrían jugar un papel importante en la variación intraestacional \cite{Arias_et_al_2021,Taborda-Soto_no_published,Serra_et_al_2010,Arias_2005}. En este sentido, en el presente trabajo se explora la predicción de caudales medios diarios del río Sogamoso utilizando estas variables como datos de entrada junto con variables tradicionales y diferentes modelos de inteligencia artificial y aprendizaje automático para determinar la ganancia de estos enfoques respecto a enfoques tradicionales de pronóstico climatologico.
+Por otro lado, la necesidad de contar con información de los mecanismos que intervienen en la modulación de las oscilaciones intraestacionales (con periodos entre 1-90 días) ha impulsado diversos estudios que se han enfocado principalmente en las relaciones con la Oscilación de Madden-Julian (MJO) \cite{Arias_2005,Poveda_and_Mesa_2000,Torres_Pineda_and_Pabon_Caicedo_2017,Grimm_2019}, la cual es el principal modo de variabilidad intraestacional en el trópico \cite{Madden_Julian_1971,Madden_Julian_1972} y en modelos de pronóstico que incluyan este mecanismo como variable predictora, los cuales se han basado principalmente en métodos de Análisis Espectral Singular y Predicción por bandas espectrales \cite{Arias_2005,Arenas_and_Carvajal_2010,Yepes_2012}. Recientemente, se ha encontrado que además de la MJO, otras ondas atmosféricas acopladas con la convección, en particular Ondas Kelvin, Ondas Rossby y Ondas del Este, se relacionan coherentemente con la precipitación sobre la región \cite{Giraldo-Cardenas_et_al_2021,Hoyos_et_al_no_published,Taborda-Soto_no_published}, y que en la dinámica los chorros de bajo nivel podrían jugar un papel importante en la variación intraestacional \cite{Arias_et_al_2021,Taborda-Soto_no_published,Serra_et_al_2010,Arias_2005}. En este sentido, en el presente trabajo se explora la predicción de caudales medios diarios del río Sogamoso utilizando estas variables como datos de entrada junto con variables tradicionales y diferentes modelos de inteligencia artificial y aprendizaje automático para determinar la ganancia de estos enfoques respecto a enfoques tradicionales de pronóstico climatologico y antecedente.
 
-El documento se divide de la siguiente manera... 
+\textcolor{red}{El documento se divide de la siguiente manera... }
 
 
 % Headings should be sentence fragments and do not begin with a
@@ -198,31 +202,145 @@ El documento se divide de la siguiente manera...
 
 \section{Datos}
 
-\begin{itemize}
-	\item Precipitación sobre la cuenca del reánalisis ERA5.
-	\item Series de advección de humedad dada por los chorros de bajo nivel con las variables sacados de las variables de vientos horizontales y humedad especifica de ERA5.
-	\item Series de las ondas acopladas con la convección sobre la cuenca (o una región más amplia) por medio del filtro espaciotemporal de la OLR de la NOAA.
-	\item Información de caudales dada por el IDEAM y XM.
-\end{itemize}
+La información de la variable objetivo, la cual es el caudal diario del río Sogamoso antes de la entrada al embalse Topocoro, se calcula por medio de la información de las estaciones El Jordan, Remolino y El tablazo del IDEAM, las cuales se pueden descargar en \url{http://dhime.ideam.gov.co/atencionciudadano/}. El caudal por tanto, tiene un periodo desde enero del 2001 hasta diciembre del 2020, con un periodo faltante de datos desde enero del 2011 hasta diciembre del 2012.
 
-Podríamos tener también precipitación acumulada antecedente y tocaría evaluar si algún indice interanual, aunque no creo por que uno espera que eso se vea reflejado en la precipitación o en las otras variables. También se podría utilizar alguna serie de la MJO.
+Por otro lado, para las variables predictoras se descargó información de precipitación total, vientos horizontales y humedad especifica desde 700 a 1000 hPa del reanalisis ERA5 desde enero del 2001 hasta diciembre del 2020 que se puede obtener de la pagina web \url{https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5}. Con esta información se calcula la precipitación promedio sobre la cuenca y la precipitación acumulada de los últimos 7 días, y las series de advección de humedad de los chorros del CHOCÓ (\textcolor{red}{región}), Caribe (\textcolor{red}{región}) y Orinoquia (\textcolor{red}{región}). El periodo que comprenden estas series es desde enero del 2001 hasta diciembre de 2020.
+
+Adicionalmente, se utilizó radiación de onda larga saliente (OLR) diaria de la NOAA que se puede obtener de la pagina web \url{https://psl.noaa.gov/data/gridded/data.olrcdr.interp.html}. Con esta información se calcularon las series de las ondas acopladas con la convección sobre la cuenca del río Sogamoso, primeramente calculando los campos por medio del filtro de frecuencia y numero de onda \cite{Wheeler_And_Kiladis_1999} y luego calculando las series de estos campos de ondas sobre la región aferente a la cuenca del río Sogamoso. El periodo que comprende estas series es desde febrero de 2001 hasta noviembre de 2020, debido a que en el filtro se pierden los primeros y últimos 30 días del periodo descargado. \textcolor{red}{Hablar sobre los tipos de ondas}
+
+Asimismo, de la variable original se calcularon dos variables predictoras, el caudal del día antes, y la tendencia, que es la diferencia entre dos días de caudal consecutivos.
+
+\section{Metodología}
+
+La metodología se divide en 3 items: selección de variables predictoras, entrenamiento y evaluación de modelos de pronósticos, y evaluación de la ganancia de estos modelos respecto a los pronósticos de referencia: climatologico y antecedente.
+
+\subsection{Selección de variables}
+
+El desempeño de un modelo de pronostico estadístico depende en gran medida de las variables de entrada, esto significa, que las variables predictoras deben contener información relevante sobre el comportamiento de la variable que se quiere explicar. Para realizar este analisis primero se dividen los conjuntos de datos en un conjunto de entrenamiento (desde 2001 hasta 2016) y un conjunto de prueba (desde 2017 hasta 2020), y los analisis se realizan en el conjunto de entrenamiento. Dado que estas variables climatologías tienen un marcado ciclo anual, se calculan las anomalías estandarizadas por medio de ecuación \ref{ec:anomestand}, donde i corresponde a cada día de los 366 días del año. Luego de tener estas anomalías estandarizadas que serán con las que se calibraran los modelos, se realiza un analisis de correlaciones rezagadas y componentes principales para definir las mejores variables predictoras que ingresan a los modelos de pronóstico.
+
+\begin{equation}
+	AnomEstand = \frac{dato_i -media_i}{desv_i}
+\label{ec:anomestand}
+\end{equation}
+
+\subsection{Entrenamiento, validación y prueba de modelos}
+
+Como se mencionó anteriormente, el periodo de entrenamiento de los modelos corresponde a las fechas entre 2001 y 2016. En este caso se entrenaron siete (7) tipos de modelos los cuales son: regresión lineal múltiple (LR), vecino más cercano (KNN), vectores de soporte (SVR), ramdom forest (RF), SARIMAX, redes neurales artificiales tipo percertrón multicapa (MLP) y recurrentes de largo y corto plazo (LSTM). En cada uno de estos modelos se variaron los hiperparametros de los que dependen en mallas fijas y aleatorias para obtener los hiperparámetros con mejores resultados, con los cuales se definieron los modelos finales a los cuales se les evaluó por medio de una validación cruzada kfold de 5 ventanas consecutivas y el numero de muestras. Además, se calculo en el periodo de prueba (2017-2020), las metricas del r2 y el error cuadratico medio (mse) para determinar cual modelo presenta el mejor desempeño.
+
+\subsection{Ganancia respecto a pronósticos de referencia}
+
+Por ultimo, es importante reconocer que en el medio se desarrollan principalmente dos tipos de pronósticos de referencia; el primero de ellos es el pronóstico climatologico, es decir, que el pronostico de caudal para un día i corresponde al promedio de los días i de todos los años de registro; y el segundo es el pronostico antecedente, el cual hace referencia a pronosticar el caudal del día i como el caudal observado el día anterior, esto dada la memoria que tienen los caudales de los ríos. Por tanto, en este paso se evaluar la ganancia en la reducción del error cuadrático medio al pronosticar con los modelos de pronostico respecto a estos dos tipos de pronostico de referencia, esto se realiza por medio de métrica del Skill Score (SS), la cual se presenta en la ecuación \ref{ec:skillscore}.
 
 
+\begin{equation}
+	SS = 1 - \frac{E_{pron}}{E_{ref}}
+	\label{ec:skillscore}
+\end{equation}
 
-\section{Materiales y Métodos}
-
-%
-% \subsection{A descriptive heading about methods}
-% More about Methods.
-%
-
-%
 \section{Resultados} 
+
+A continuación se presentan los resultados de la selección de variables, calibración y evaluación de los modelos de pronóstico, y la evaluación de los pronósticos con respecto a los pronósticos de referencia.
+
+\subsection{Selección de variables}
+
+En la Figura \ref{fig:series_estand} se presentan las series de cada una de las variables estandarizadas con los parámetros de medias y desviación estándar el periodo de entrenamiento, además, se presenta la serie de anomalías de caudal, la cual es la variable que se pretende pronosticar. De  esta imagen se puede observar que las anomalías en el periodo de prueba presentan valores mayores a los encontrados en el periodo de entrenamiento en todas las variables, pero que se ve más marcado en las variables de caudal y precipitación. Además, también se observa que en variables como el caudal se presentan variaciones interanuales.
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=1.0\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/Anomalias_estandarizadas.png}
+	\caption{Series de anomalías estandarizadas de cada una de las variables predictoras y objetivo.} \label{fig:series_estand}
+\end{figure}
+
+Por otro lado, es bien sabido que cuando hablamos de pronósticos de series de tiempo, las relaciones entre las variables explicativas respecto a la variable objetivo pueden tener cierto rezago, por lo que se hace necesario desarrollar una analisis de correlaciones rezagadas con cada uno de los índices para determinar cuales son los rezagos óptimos para las variables que ingresan a los modelos. En este sentido, en la Figura \ref{fig:corr_resa} se presentan las correlaciones rezagadas de cada una de las variables con la variable objetivo. Se puede observar que las variables de la precipitación, las ondas kelvin, MRG y TD,  el chorro del caribe zonal y los chorros del chocó tienen un rezago de 1 día; Los chorros del chocó, y las ondas Rossby, tienen rezago de 2 y el chorro de la orinoquia rezago de 3; y además, variables tienen las mayores correlaciones con rezago 0, destacablemente el caudal del día antes y la precipitación acumulada. También es importante mencionar que estos rezagos por ejemplo en la precipitación son congruentes con el tiempo de concentración de la cuenca que es aproximadamente de 1.5 días.
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.8\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/Seleccion_rezago.png}
+	\caption{Correlaciones rezagadas entre las variables explicativas y objetivo.} \label{fig:corr_resa}
+\end{figure}
+
+Con base en los rezagos anteriores se calculan las correlaciones entre los indices y las anomalías de caudal, donde resaltan altas correlaciones con el las anomalías de caudal antecedente (0.85), precipitación acumulada (0.61), precipitación del día anterior (0.45), caribe zonal con rezago 1 (0.31), entre otros, pero además se presentan altas relaciones entre las variables predictoras como las anomalías de caudal antecedente y la precipitación.  
+
+En este sentido, se decide realizar un analisis de componentes principales con estas variables para obtener variables independientes entre ellas, que ingresen a los modelos de pronostico. En la Figura \ref{fig:corr_pcs} la matriz de correlación de las 18 componentes principales con las anomalías de caudal. Se puede observar que las componentes principales PC1, PC2, PC18, PC9, PC6, PC16, PC7 y PC8 superan el umbral de 0.1 de correlación y por tanto serán las variables que se utilizarán como variables predictoras en los modelos. Estas variables presentan una buena separación de las anomalías de caudal como se puede observar en la Figura \ref{fig:pc1pc2}, dónde en el espacio de las componentes principales PC1 y PC2, para valores negativos de ambas variables se tienen anomalías negativas de caudal, y para valores positivos de ambas variables se tienen anomalías positivas de caudal.
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.8\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/Correlaciones_con_pcs.png}
+	\caption{Correlaciones rezagadas entre las pcs y la variable objetivo.} \label{fig:corr_pcs}
+\end{figure}
+
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.5\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/PC1_PC2.png}
+	\caption{Anomalías de caudal en el espacio de las PC1 y PC2.} \label{fig:pc1pc2}
+\end{figure}
+
+
+\subsection{Entrenamiento, validación y prueba de modelos}
+
+De acuerdo con las variables definidas en la subsección anterior se plantean 7 modelos de pronostico a ser evaluados, estos son: regresión lineal múltiple (LR), vecino más cercano (KNN), vectores de soporte (SVR), ramdom forest (RF), SARIMAX, redes neurales artificiales tipo percertrón multicapa (MLP) y recurrentes de largo y corto plazo (LSTM) \textcolor{red}{Hablar sobre los hiperparametros y su busqueda}. Todos estos modelos, excpecto SARIMAX y LSTM, se evaluan en el periodo de entrenamiento por medio de una validación cruzada kfold de ventanas sucesivas y la métrica del r2, y además, se presenta la curva de entrenamiento para determinar si es posible que el modelo continué aprendiendo de más datos. 
+
+En la Figura \ref{fig:kfold} se pueden observar la validación cruzada de los modelos en la cual la forma de la función es similar en todos los modelos, donde se presenta un mejor desempeño en la ventana 4 de validación, del orden de 0.8. Además, los desempeños en las demás ventanas son del orden de 0.6, aunque con mejores resultados en la regresión lineal, la red neuronal MLP y SVR. Dado que estos tres modelos presentan resultados similares, se calculan las curvas de aprendizaje que se presentan en la Figura \ref{fig:LC}, de donde se puede observar que el modelo de regresión lineal y SVR aunque presentan buen desempeño, las curvas muestran que no pueden aprender más, mientras la red neuronal podría seguir aprendiendo con más muestras. Asimismo, se observa problemas de varianza en RF y KNN, siendo el primero más critico.
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_LR_CV_r2.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_KNN_CV_r2.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_SVR_CV_r2.png}\\
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_MLP_CV_r2.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_RF_CV_r2.png}
+	\caption{Validación cruzada en términos del r2 para los modelos de LR, KNN, SVR, MLP y RF (de izquierda a derecha y arriba hacia abajo).} \label{fig:kfold}
+\end{figure}
+
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_LR_LC_r2.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_KNN_LC_r2.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_SVR_LC_r2.png}\\
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_MLP_LC_r2.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/R_RF_LC_r2.png}
+	\caption{Curva de aprendizaje en términos del r2 para los modelos de LR, KNN, SVR, MLP y RF (de izquierda a derecha y arriba hacia abajo).} \label{fig:LC}
+\end{figure}
+
+Por otro lado, dado que el modelo SARIMAX y LSTM requieren de continuidad porque son modelos que guardan memoria, estos se calibraron desde 2013 hasta 2016. Los resultados de la distribución de los residuales del modelo SARIMAX es similar al de regresión lineal, donde ambos se distribuyen de manera normal con algunos alejamientos en los eventos extremos. Asimismo, el modelo corrido para LSTM, muestra que no podría seguir aprendiendo con los hiperparametros que se le han sobreimpuesto.
+
+Para evaluar equitativamente el desempeño de los modelos se pronostican las anomalías de caudal en el periodo de prueba (2017-2020) y se calcula las métricas de r2 y error cuadrático medio (mse), las cuales se consignan en la Figura \ref{fig:test_r2_mse}. Se puede observar que de acuerdo con estas métricas, los mejores 4 modelos en orden decendente son MLP, SARIMAX, LR y SVR, que son los mismos modelos en lo que el desempeño en el entrenamiento era superior. 
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/r2_anomalias.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/mse_anomalias.png}
+	\caption{Curva de aprendizaje en términos del r2 para los modelos de LR, KNN, SVR, MLP y RF (de izquierda a derecha y arriba hacia abajo).} \label{fig:test_r2_mse}
+\end{figure}
+
+\subsection{Ganancia respecto a pronósticos de referencia}
+
+Pronosticar las anomalías de caudal surgió como una necesidad debido a que las variables climáticas tienen un marcado ciclo anual. En este punto, es necesario desestandarizar las anomalías de caudal, es decir, volver a las unidades originales del caudal para determinar el valor real del pronostico. En la Figura \ref{fig:series_pron} se presenta los pronósticos de cada modelo, junto con el caudal observado y la climatología. Se puede observar que las deficiencias en algunos modelos como KNN que presentan bajos desempeños se debe a que los picos más altos no son alcanzados y estos pesan más en el error. 
+
+También se observa que modelos como LSTM captura los extremos pero se equivoca más en otros rangos de valores, pero en general, se ve una representación de los caudales mayor que la climatología, pero para evaluar esto más contundente mente en la Figura \ref{fig:SS} se presenta la métrica de ganancia con respecto a la climatología y al caudal antecedente. De esta ultima figura, se observa que 
+
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=1.0\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/pronosticos_series_modelos.png}
+	\caption{Series pronosticadas por cada uno de los modelos en el periodo de prueba.} \label{fig:series_pron}
+\end{figure}
+
+\begin{figure}[!]
+	\centering%
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/SS_CLIMA.png}
+	\includegraphics[width=0.3\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/SS_ANTES.png}
+	\caption{Curva de aprendizaje en términos del r2 para los modelos de LR, KNN, SVR, MLP y RF (de izquierda a derecha y arriba hacia abajo).} \label{fig:SS}
+\end{figure}
+
 
 \section{Conclusiones}
 
+Se podrían probar nuevos modelos LSTM.
 
-\section{= enter section title =}
+% \section{= enter section title =}
 %Text here ===>>>
 
 
@@ -382,12 +500,12 @@ Podríamos tener también precipitación acumulada antecedente y tocaría evalua
 
 
 
-\section{Open Research}
-AGU requires an Availability Statement for the underlying data needed to understand, evaluate, and build upon the reported research at the time of peer review and publication.
-
-Authors should include an Availability Statement for the software that has a significant impact on the research. Details and templates are in the Availability Statement section of the Data and Software for Authors Guidance: \url{https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Data-and-Software-for-Authors#availability}
-
-It is important to cite individual datasets in this section and, and they must be included in your bibliography. Please use the type field in your bibtex file to specify the type of data cited. Options include [Dataset], [Software], [ComputationalNotebook], [Collection].
+%\section{Open Research}
+%AGU requires an Availability Statement for the underlying data needed to understand, evaluate, and build upon the reported research at the time of peer review and publication.
+%
+%Authors should include an Availability Statement for the software that has a significant impact on the research. Details and templates are in the Availability Statement section of the Data and Software for Authors Guidance: \url{https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Data-and-Software-for-Authors#availability}
+%
+%It is important to cite individual datasets in this section and, and they must be included in your bibliography. Please use the type field in your bibtex file to specify the type of data cited. Options include [Dataset], [Software], [ComputationalNotebook], [Collection].
 %Example:
 %
 %@misc{https://doi.org/10.7283/633e-1497,
@@ -400,21 +518,21 @@ It is important to cite individual datasets in this section and, and they must b
 %  type = {dataset}
 %}
 
-
-For physical samples, use the IGSN persistent identifier, see the International Geo Sample Numbers section:
-\url{https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Data-and-Software-for-Authors#IGSN}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\acknowledgments
-This section is optional. Include any Acknowledgments here.
-The acknowledgments should list:\\
-All funding sources related to this work from all authors\\
-Any real or perceived financial conflicts of interests for any author\\
-Other affiliations for any author \newline that may be perceived as having a conflict of interest with respect to the results of this paper.\\
-\clearpage
-It is also the appropriate place to thank colleagues and other contributors. AGU does not normally allow dedications.\\
-%\input{methods}
-Hello here is some text in Nick's file
+%
+%For physical samples, use the IGSN persistent identifier, see the International Geo Sample Numbers section:
+%\url{https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Data-and-Software-for-Authors#IGSN}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\acknowledgments
+%This section is optional. Include any Acknowledgments here.
+%The acknowledgments should list:\\
+%All funding sources related to this work from all authors\\
+%Any real or perceived financial conflicts of interests for any author\\
+%Other affiliations for any author \newline that may be perceived as having a conflict of interest with respect to the results of this paper.\\
+%\clearpage
+%It is also the appropriate place to thank colleagues and other contributors. AGU does not normally allow dedications.\\
+%%\input{methods}
+%Hello here is some text in Nick's file
 %\input{data}
 
 
