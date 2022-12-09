@@ -129,12 +129,11 @@
 %  Key Points summarize the main points and conclusions of the article
 %  Each must be 140 characters or fewer with no special characters or punctuation and must be complete sentences
 
-% Example:
-% \begin{keypoints}
-% \item	List up to three key points (at least one is required)
-% \item	Key Points summarize the main points and conclusions of the article
-% \item	Each must be 140 characters or fewer with no special characters or punctuation and must be complete sentences
-% \end{keypoints}
+ \begin{keypoints}
+ \item	Utilización del analisis de componentes principales (PCA) como herramienta para encontrar variables predictoras independientes.
+ \item	Desarrollo y evaluación de modelos de regresión lineal, KNN, SVR, RF, SARIMAX y redes neronales para el pronostico de caudales medio diarios. 
+ \item	Ganancia de los modelos de inteligencia artificial y aprendizaje automatico respecto a los modelos de referencia climatologico y antecedente.
+ \end{keypoints}
 
 %\begin{keypoints}
 %\item 
@@ -161,9 +160,9 @@
 
 %% \begin{abstract} starts the second page
 
-%\begin{abstract}
-%[ enter your Abstract here ]
-%\end{abstract}
+\begin{abstract}
+En el presente articulo se explora la predicción de caudales medios del río Sogamoso antes de la entrada al embalse Topocoro por medio de modelos de inteligencia artificial y aprendizaje automático como lo son la regresión lineal (LR), vecino más cercano (KNN), vectores de soporte (SVR), ramdon Forest (RF), SARIMAX y redes neurales artificiales tipo percertrón multicapa (MLP) y recurrentes de largo y corto plazo (LSTM). El analisis comprende la selección de variables independientes que entrarán a los modelos por medio de un analisis de componentes principales (PCA), de las cuales se seleccionan 8 componentes que superan la correlación de 0.1 con las anomalías de caudal. Con base en el desempeño de los modelos en el periodo de entrenamiento y prueba se determina que el modelo con mejor desempeño para pronosticar las anomalías de caudal es el MLP, que además presenta de acuerdo con las curvas de aprendizaje tendencia a seguir aprendiendo con más muestras; asimismo, los modelos SARIMAX, LR y SVR presentan resultados satisfactorios. Por otro lado, se evalúa la ganancia de estos modelos con respecto a los pronosticos de refencia: climatologicos y antecedente, dónde se concluyé que el modelo MLP es el que presenta mejor desempeño respresentando un 50.9\% de ganancia respecto a la climatología y 14\% de ganancia respecto al pronostico antecedente, es decir, el caudal del día anterior.
+\end{abstract}
 
 % \section*{Plain Language Summary}
 % [ enter your Plain Language Summary here or delete this section]
@@ -177,9 +176,7 @@
 
 %%% Suggested section heads:
 % \section{Introduction}
-\section*{Resumen}
-
-\textcolor{red}{Aquí voy a escribir un resumen jejeje}
+%\section*{Resumen}
 
 \section{Introducción}
 
@@ -191,7 +188,7 @@ Los caudales de los ríos fluctúan en diferentes escalas de tiempo que comprend
 
 Por otro lado, la necesidad de contar con información de los mecanismos que intervienen en la modulación de las oscilaciones intraestacionales (con periodos entre 1-90 días) ha impulsado diversos estudios que se han enfocado principalmente en las relaciones con la Oscilación de Madden-Julian (MJO) \cite{Arias_2005,Poveda_and_Mesa_2000,Torres_Pineda_and_Pabon_Caicedo_2017,Grimm_2019}, la cual es el principal modo de variabilidad intraestacional en el trópico \cite{Madden_Julian_1971,Madden_Julian_1972} y en modelos de pronóstico que incluyan este mecanismo como variable predictora, los cuales se han basado principalmente en métodos de Análisis Espectral Singular y Predicción por bandas espectrales \cite{Arias_2005,Arenas_and_Carvajal_2010,Yepes_2012}. Recientemente, se ha encontrado que además de la MJO, otras ondas atmosféricas acopladas con la convección, en particular Ondas Kelvin, Ondas Rossby y Ondas del Este, se relacionan coherentemente con la precipitación sobre la región \cite{Giraldo-Cardenas_et_al_2021,Hoyos_et_al_no_published,Taborda-Soto_no_published}, y que en la dinámica los chorros de bajo nivel podrían jugar un papel importante en la variación intraestacional \cite{Arias_et_al_2021,Taborda-Soto_no_published,Serra_et_al_2010,Arias_2005}. En este sentido, en el presente trabajo se explora la predicción de caudales medios diarios del río Sogamoso utilizando estas variables como datos de entrada junto con variables tradicionales y diferentes modelos de inteligencia artificial y aprendizaje automático para determinar la ganancia de estos enfoques respecto a enfoques tradicionales de pronóstico climatologico y antecedente.
 
-\textcolor{red}{El documento se divide de la siguiente manera... }
+El documento se divide de la siguiente manera: En la sección 2 se presentan los datos que servirán como variables de entrada a los modelos de pronóstico; en la sección 3 se describe la metodología para la selección de variables, entrenamiento y validación de los modelos de pronóstico, y de la evaluación de la ganancia respecto a los pronósticos de referencia; en la sección 4 se presentan los resultados y en la sección 5 las conclusiones del trabajo. 
 
 
 % Headings should be sentence fragments and do not begin with a
@@ -204,9 +201,9 @@ Por otro lado, la necesidad de contar con información de los mecanismos que int
 
 La información de la variable objetivo, la cual es el caudal diario del río Sogamoso antes de la entrada al embalse Topocoro, se calcula por medio de la información de las estaciones El Jordan, Remolino y El tablazo del IDEAM, las cuales se pueden descargar en \url{http://dhime.ideam.gov.co/atencionciudadano/}. El caudal por tanto, tiene un periodo desde enero del 2001 hasta diciembre del 2020, con un periodo faltante de datos desde enero del 2011 hasta diciembre del 2012.
 
-Por otro lado, para las variables predictoras se descargó información de precipitación total, vientos horizontales y humedad especifica desde 700 a 1000 hPa del reanalisis ERA5 desde enero del 2001 hasta diciembre del 2020 que se puede obtener de la pagina web \url{https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5}. Con esta información se calcula la precipitación promedio sobre la cuenca y la precipitación acumulada de los últimos 7 días, y las series de advección de humedad de los chorros del CHOCÓ (\textcolor{red}{región}), Caribe (\textcolor{red}{región}) y Orinoquia (\textcolor{red}{región}). El periodo que comprenden estas series es desde enero del 2001 hasta diciembre de 2020.
+Por otro lado, para las variables predictoras se descargó información de precipitación total, vientos horizontales y humedad especifica desde 700 a 1000 hPa del reanalisis ERA5 desde enero del 2001 hasta diciembre del 2020 que se puede obtener de la pagina web \url{https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5}. Con esta información se calcula la precipitación promedio sobre la cuenca y la precipitación acumulada de los últimos 7 días, y las series de advección de humedad de los chorros del CHOCÓ (región comprendida entre 2.5N-7.5N, 85W-77.5W, 900hPa-950hPa), Caribe (región comprendida entre 12.5N-17.5N, 80W-70W, 900hPa-950hPa) y Orinoquia (región comprendida entre 0N-5N, 70W-65W, 825hPa-875hPa). El periodo que comprenden estas series es desde enero del 2001 hasta diciembre de 2020.
 
-Adicionalmente, se utilizó radiación de onda larga saliente (OLR) diaria de la NOAA que se puede obtener de la pagina web \url{https://psl.noaa.gov/data/gridded/data.olrcdr.interp.html}. Con esta información se calcularon las series de las ondas acopladas con la convección sobre la cuenca del río Sogamoso, primeramente calculando los campos por medio del filtro de frecuencia y numero de onda \cite{Wheeler_And_Kiladis_1999} y luego calculando las series de estos campos de ondas sobre la región aferente a la cuenca del río Sogamoso. El periodo que comprende estas series es desde febrero de 2001 hasta noviembre de 2020, debido a que en el filtro se pierden los primeros y últimos 30 días del periodo descargado. \textcolor{red}{Hablar sobre los tipos de ondas}
+Adicionalmente, se utilizó radiación de onda larga saliente (OLR) diaria de la NOAA que se puede obtener de la pagina web \url{https://psl.noaa.gov/data/gridded/data.olrcdr.interp.html}. Con esta información se calcularon las series de las ondas acopladas con la convección sobre la cuenca del río Sogamoso, primeramente calculando los campos por medio del filtro de frecuencia y numero de onda \cite{Wheeler_And_Kiladis_1999} y luego calculando las series de estos campos de ondas sobre la región aferente a la cuenca del río Sogamoso. El periodo que comprende estas series es desde febrero de 2001 hasta noviembre de 2020, debido a que en el filtro se pierden los primeros y últimos 30 días del periodo descargado. Las ondas filtradas corresponden a ondas \textit{Kelvin}, n = 1 \textit{equatorial Rossby} (ER), \textit{mixed Rossby-gravity} (MRG), n = 0 \textit{eastward inertio-gravity} (EIG), n = 1 \textit{westward inertio-gravity}  (WIG). Adicionalmente, se filtran las ondas de Madden-Julian (MJO) simetricas y antisimetricas, junto con las depresiones tropicales (TD) también conocidas como Ondas del Este.
 
 Asimismo, de la variable original se calcularon dos variables predictoras, el caudal del día antes, y la tendencia, que es la diferencia entre dos días de caudal consecutivos.
 
@@ -225,7 +222,7 @@ El desempeño de un modelo de pronostico estadístico depende en gran medida de 
 
 \subsection{Entrenamiento, validación y prueba de modelos}
 
-Como se mencionó anteriormente, el periodo de entrenamiento de los modelos corresponde a las fechas entre 2001 y 2016. En este caso se entrenaron siete (7) tipos de modelos los cuales son: regresión lineal múltiple (LR), vecino más cercano (KNN), vectores de soporte (SVR), ramdom forest (RF), SARIMAX, redes neurales artificiales tipo percertrón multicapa (MLP) y recurrentes de largo y corto plazo (LSTM). En cada uno de estos modelos se variaron los hiperparametros de los que dependen en mallas fijas y aleatorias para obtener los hiperparámetros con mejores resultados, con los cuales se definieron los modelos finales a los cuales se les evaluó por medio de una validación cruzada kfold de 5 ventanas consecutivas y el numero de muestras. Además, se calculo en el periodo de prueba (2017-2020), las metricas del r2 y el error cuadratico medio (mse) para determinar cual modelo presenta el mejor desempeño.
+Como se mencionó anteriormente, el periodo de entrenamiento de los modelos corresponde a las fechas entre 2001 y 2016. En este caso se entrenaron siete (7) tipos de modelos los cuales son: regresión lineal múltiple (LR) sin regularización; vecino más cercano (KNN); vectores de soporte (SVR); ramdom forest (RF); SARIMAX, redes neurales artificiales tipo percertrón multicapa (MLP) y redes neuronales recurrentes de largo y corto plazo (LSTM). En cada uno de estos modelos se variaron los hiperparametros de los que dependen en mallas fijas y aleatorias para obtener los hiperparámetros con mejores resultados, con los cuales se definieron los modelos finales a los cuales se les evaluó por medio de una validación cruzada kfold de 5 ventanas consecutivas y el numero de muestras. Además, se calculo en el periodo de prueba (2017-2020), las metricas del r2 y el error cuadratico medio (mse) para determinar cual modelo presenta el mejor desempeño.
 
 \subsection{Ganancia respecto a pronósticos de referencia}
 
@@ -243,13 +240,15 @@ A continuación se presentan los resultados de la selección de variables, calib
 
 \subsection{Selección de variables}
 
-En la Figura \ref{fig:series_estand} se presentan las series de cada una de las variables estandarizadas con los parámetros de medias y desviación estándar el periodo de entrenamiento, además, se presenta la serie de anomalías de caudal, la cual es la variable que se pretende pronosticar. De  esta imagen se puede observar que las anomalías en el periodo de prueba presentan valores mayores a los encontrados en el periodo de entrenamiento en todas las variables, pero que se ve más marcado en las variables de caudal y precipitación. Además, también se observa que en variables como el caudal se presentan variaciones interanuales.
+En la Figura \ref{fig:series_estand} se presentan las series de cada una de las variables estandarizadas con los parámetros de medias y desviación estándar el periodo de entrenamiento, además, se presenta la serie de anomalías de caudal, la cual es la variable que se pretende pronosticar.
 
 \begin{figure}[!]
 	\centering%
-	\includegraphics[width=1.0\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/Anomalias_estandarizadas.png}
+	\includegraphics[width=0.85\textwidth]{G:/My Drive/Maestría en Recursos Hidraulicos/IA y AU en geociencias/Trabajo_final/Imagenes/Anomalias_estandarizadas.png}
 	\caption{Series de anomalías estandarizadas de cada una de las variables predictoras y objetivo.} \label{fig:series_estand}
 \end{figure}
+
+De  esta imagen se puede observar que las anomalías en el periodo de prueba presentan valores mayores a los encontrados en el periodo de entrenamiento en todas las variables, pero que se ve más marcado en las variables de caudal y precipitación. Además, también se observa que en variables como el caudal se presentan variaciones interanuales.
 
 Por otro lado, es bien sabido que cuando hablamos de pronósticos de series de tiempo, las relaciones entre las variables explicativas respecto a la variable objetivo pueden tener cierto rezago, por lo que se hace necesario desarrollar una analisis de correlaciones rezagadas con cada uno de los índices para determinar cuales son los rezagos óptimos para las variables que ingresan a los modelos. En este sentido, en la Figura \ref{fig:corr_resa} se presentan las correlaciones rezagadas de cada una de las variables con la variable objetivo. Se puede observar que las variables de la precipitación, las ondas kelvin, MRG y TD,  el chorro del caribe zonal y los chorros del chocó tienen un rezago de 1 día; Los chorros del chocó, y las ondas Rossby, tienen rezago de 2 y el chorro de la orinoquia rezago de 3; y además, variables tienen las mayores correlaciones con rezago 0, destacablemente el caudal del día antes y la precipitación acumulada. También es importante mencionar que estos rezagos por ejemplo en la precipitación son congruentes con el tiempo de concentración de la cuenca que es aproximadamente de 1.5 días.
 
@@ -279,7 +278,7 @@ En este sentido, se decide realizar un analisis de componentes principales con e
 
 \subsection{Entrenamiento, validación y prueba de modelos}
 
-De acuerdo con las variables definidas en la subsección anterior se plantean 7 modelos de pronostico a ser evaluados, estos son: regresión lineal múltiple (LR), vecino más cercano (KNN), vectores de soporte (SVR), ramdom forest (RF), SARIMAX, redes neurales artificiales tipo percertrón multicapa (MLP) y recurrentes de largo y corto plazo (LSTM) \textcolor{red}{Hablar sobre los hiperparametros y su busqueda}. Todos estos modelos, excpecto SARIMAX y LSTM, se evaluan en el periodo de entrenamiento por medio de una validación cruzada kfold de ventanas sucesivas y la métrica del r2, y además, se presenta la curva de entrenamiento para determinar si es posible que el modelo continué aprendiendo de más datos. 
+De acuerdo con las variables definidas en la subsección anterior se plantean 7 modelos de pronostico a ser evaluados, estos son: regresión lineal múltiple (LR), vecino más cercano (KNN) con un tamaño de hojas igual a 1, nemero de vecinos cercanos de 21 y distancia de Manhattan; vectores de soporte (SVR) cn parametros X=6.67, gamma=0.01 y kernel lineal; ramdom forest (RF) con 800 estimadores, separaciones se muestras minimas de 2 y profundidad mínima de 100; SARIMAX con p=2 y q=1;  redes neurales artificiales tipo percertrón multicapa (MLP) con 3 capas de 10,10 y 50 neuronas y una función de activación tangente hiperbólica; redes neuronales recurrentes de largo y corto plazo (LSTM) con las 3 capas de 10,10 y 50 neuronas cada una con una capa de dropout de 0.1. Todos estos modelos, excpecto SARIMAX y LSTM, se evaluan en el periodo de entrenamiento por medio de una validación cruzada kfold de ventanas sucesivas y la métrica del r2, y además, se presenta la curva de entrenamiento para determinar si es posible que el modelo continué aprendiendo de más datos. 
 
 En la Figura \ref{fig:kfold} se pueden observar la validación cruzada de los modelos en la cual la forma de la función es similar en todos los modelos, donde se presenta un mejor desempeño en la ventana 4 de validación, del orden de 0.8. Además, los desempeños en las demás ventanas son del orden de 0.6, aunque con mejores resultados en la regresión lineal, la red neuronal MLP y SVR. Dado que estos tres modelos presentan resultados similares, se calculan las curvas de aprendizaje que se presentan en la Figura \ref{fig:LC}, de donde se puede observar que el modelo de regresión lineal y SVR aunque presentan buen desempeño, las curvas muestran que no pueden aprender más, mientras la red neuronal podría seguir aprendiendo con más muestras. Asimismo, se observa problemas de varianza en RF y KNN, siendo el primero más critico.
 
@@ -319,7 +318,7 @@ Para evaluar equitativamente el desempeño de los modelos se pronostican las ano
 
 Pronosticar las anomalías de caudal surgió como una necesidad debido a que las variables climáticas tienen un marcado ciclo anual. En este punto, es necesario desestandarizar las anomalías de caudal, es decir, volver a las unidades originales del caudal para determinar el valor real del pronostico. En la Figura \ref{fig:series_pron} se presenta los pronósticos de cada modelo, junto con el caudal observado y la climatología. Se puede observar que las deficiencias en algunos modelos como KNN que presentan bajos desempeños se debe a que los picos más altos no son alcanzados y estos pesan más en el error. 
 
-También se observa que modelos como LSTM captura los extremos pero se equivoca más en otros rangos de valores, pero en general, se ve una representación de los caudales mayor que la climatología, pero para evaluar esto más contundente mente en la Figura \ref{fig:SS} se presenta la métrica de ganancia con respecto a la climatología y al caudal antecedente. De esta ultima figura, se observa que 
+También se observa que modelos como LSTM captura los extremos pero se equivoca más en otros rangos de valores, pero en general, se ve una representación de los caudales mayor que la climatología, pero para evaluar esto más contundente mente en la Figura \ref{fig:SS} se presenta la métrica de ganancia con respecto a la climatología y al caudal antecedente. De esta ultima figura, se observa que los mejores modelos son consistentes con los encontrados anteriormente para representar las anomalías de caudal. Por ejemplo, el modelo de redes neuronales MLP presenta un 50\% de ganancia respecto a pronosticar con la climatología y un 14\% respecto a pronósticar con el caudal del día anterior, asimismo, el modelo SARIMAX tiene un comportamiento similar con un 12.4\% de ganancia con respecto al caudal del día anterior, y los modelos de LR y SVR comprenden también ganancia del 49\% respecto a la climatología y 12\% y 10\% respecto al caudal del día anterior, respectivamente. Es de notar también que el modelo LSTM, a pesar de que presenta ganancias con respecto a la climatología, su desempeño es menor que el del pronostico antecedente, lo cual podría indicar que para este modelo su solución optima se encuentra en otro dominio de parámetros, dado que si captura correctamente los extremos.
 
 
 \begin{figure}[!]
@@ -338,7 +337,11 @@ También se observa que modelos como LSTM captura los extremos pero se equivoca 
 
 \section{Conclusiones}
 
-Se podrían probar nuevos modelos LSTM.
+El analisis de selección de variables permitió identificar que variables como el caudal antecedente y la precipitación acumulada en los últimos 7 días y del día anterior sobre la cuenca son las variables que más se correlacionan con las anomalías de caudal sobre la cuenca de Sogamoso, sin descartar que las otras variables también presentan correlaciones significativas. Pero además, estás variables también están correlacionadas entre sí, por lo cual, al aplicar el analisis de componentes principales se obtuvieron 18 componentes de las cuales 8 se correlacionan con las anomalías de caudal superando el umbral de 0.1 de correlación, lo cual permitió tener una adecuada reducción de dimensiones en el problema.
+
+Del entrenamiento, validación y prueba de los modelos se pudo identificar que para este problema especifico los modelos que presentaron un mejor desempeño fueron LR, SVR, SARIMAX y MLP. Dónde, el modelo de regresión lineal y SVR presentan desempeños muy similares y se muestran limitados al seguir aprendiendo con base en más cantidad de muestras, mientras que por su lado, el modelo MLP muestra que tiene capacidad de seguir aprendiendo a medida que se aumente el numero de muestras para entrenar. En el periodo de prueba estos mismos modelos se siguieron destacando presentando un desempeño superior a KNN y RF, los cuales presentan problemas de varianza.
+
+Por ultimo, la ganancia que tienen estos modelos con respecto a la climatología es notable, yendo desde 38\% hasta 50\% y siendo el modelo MLP el que presenta el mejor desempeño con 50.9\% de ganancia. Asimismo, este ultimo modelo presenta la mayor ganancia con respecto al pronostico antecedente, junto con SARIMAX, LR y SVR. Esto muestra, que este tipo de modelos estadísticos se pueden utilizar para pronosticar el caudal diario en cuencas como Sogamoso, lo cual puede repercutir en mejorar las regulación en este rio en el cual se tiene un embalse y se genera energía hidroeléctrica.
 
 % \section{= enter section title =}
 %Text here ===>>>
